@@ -1,0 +1,49 @@
+{
+    "best_model_name": "random_forest",
+    "model_path": "/mnt/data/adult_income_kfold_pipeline/models/best_model.joblib",
+    "metrics_path": "/mnt/data/adult_income_kfold_pipeline/outputs/metrics/cross_validation_results.csv",
+    "random_state": 42,
+    "cv_folds": 3,
+    "n_jobs": 1,
+    "models_evaluated": [
+        "decision_tree",
+        "random_forest"
+    ],
+    "selection_metric": "mean_test_accuracy",
+    "cross_validation_results": [
+        {
+            "model": "random_forest",
+            "mean_train_accuracy": 0.9119118899436445,
+            "std_train_accuracy": 0.0019939079121315535,
+            "mean_test_accuracy": 0.7940062616732053,
+            "std_test_accuracy": 0.00669680154885917,
+            "mean_train_precision": 0.8614973422960727,
+            "std_train_precision": 0.003309632884365371,
+            "mean_test_precision": 0.6233129555734128,
+            "std_test_precision": 0.015808389786164657,
+            "mean_train_recall": 0.7930733409817915,
+            "std_train_recall": 0.004897949946665715,
+            "mean_test_recall": 0.5517993383475117,
+            "std_test_recall": 0.01608168594458205,
+            "mean_fit_time": 1.3027371565500896,
+            "mean_score_time": 0.1690973440806071
+        },
+        {
+            "model": "decision_tree",
+            "mean_train_accuracy": 0.9119118899436445,
+            "std_train_accuracy": 0.0019939079121315535,
+            "mean_test_accuracy": 0.7772274663364951,
+            "std_test_accuracy": 0.005323542361068248,
+            "mean_train_precision": 0.8943985427963236,
+            "std_train_precision": 0.005073412914521862,
+            "mean_test_precision": 0.589599385477675,
+            "std_test_precision": 0.01229627119658744,
+            "mean_train_recall": 0.7547000879434621,
+            "std_train_recall": 0.00469811766591636,
+            "mean_test_recall": 0.5080552359033371,
+            "std_test_recall": 0.012235811442818658,
+            "mean_fit_time": 0.0745097001393636,
+            "mean_score_time": 0.03538266817728678
+        }
+    ]
+}
