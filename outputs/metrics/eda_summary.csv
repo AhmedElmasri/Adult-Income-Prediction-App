@@ -1,0 +1,9 @@
+column,dtype,missing_values,unique_values
+age,int64,0,72
+wc,object,0,4
+education,object,0,7
+marital status,object,0,4
+race,object,0,5
+gender,object,0,2
+hours per week,int64,0,88
+IncomeClass,object,0,2
